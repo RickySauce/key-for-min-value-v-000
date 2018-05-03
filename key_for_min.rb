@@ -10,6 +10,5 @@ name_hash.each do |item, value|
     lowest_value = value
   end
 end
-lowest_key = name_hash.index(lowest_value)
-lowest_key
+name_hash.index(lowest_value)
 end
